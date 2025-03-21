@@ -1,0 +1,60 @@
+@font-face {
+    font-family: skibidi;
+    src: url(assets/fonts/SourGummy-Bold.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: skibidi;
+    color: #705D56;
+    background-color: #ffcfd1;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem; 
+    font-family: skibidi;
+    color: #705D56;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+#yes {
+    background-color: lightgreen;
+}
+
+#no {
+    background-color: lightcoral;
+}
